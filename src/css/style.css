@@ -1,0 +1,55 @@
+.img{
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    width: 40%;
+    max-width: 100%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+}
+
+.bla{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.titulo{
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Kanit', sans-serif;
+}
+
+.insta{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box:hover .img{
+    opacity: 0.3;
+}
+
+.box:hover .bla{
+    opacity: 1;
+}
+
+.texto{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
